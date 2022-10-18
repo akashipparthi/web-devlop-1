@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(94, 89, 153);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.score-card{
+    
+    box-sizing: border-box;
+    background-color: aliceblue;
+    border: 3px solid black;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px 15px;
+}
+.choices{
+    text-align: center;
+    padding: 40px 0 ;
+}
+.choice{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 4px;
+    border-radius: 5px;
+    
+}
+.choice img{
+    filter: invert(0);
+    filter:brightness(100%);
+    border-radius: 50px;
+}
+.result{
+text-align: center;
+font-weight: 300;
+line-height: 40px;
+ 
+
+}
+h1{
+    text-align: center;
+}
+
